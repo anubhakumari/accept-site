@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Do You Love Me?</title>
+    <!-- Link to the CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Main container for the initial question and buttons -->
+    <div class="container">
+        <!-- Question displayed at the top -->
+        <h1>Do you love me?</h1>
+        <!-- Display a "Do you love me?" GIF under the question -->
+        <img id="initialGif" src="https://media.tenor.com/UfJ3zb1_HYkAAAAC/please-cute.gif" alt="Do you love me gif" width="200">
+        
+        <!-- Container for Yes and No buttons -->
+        <div class="buttons">
+            <!-- Yes Button -->
+            <button id="yesBtn">Yes</button>
+            <!-- No Button -->
+            <button id="noBtn">No</button>
+        </div>
+    </div>
+
+    <!-- Hidden content for the second page when 'Yes' is clicked -->
+    <div id="secondPage" class="hidden">
+        <!-- Message displayed on the second page -->
+        <h1>I love you too!</h1>
+        <!-- Second GIF displayed on the second page -->
+        <img id="secondGif" src="https://media.giphy.com/media/jR22gdcPiOLaE/giphy.gif" alt="I love you too gif" width="300">
+    </div>
+
+    <!-- Link to the JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
